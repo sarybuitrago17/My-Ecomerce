@@ -8,7 +8,7 @@ const RecoverPassword = () => {
 
   
   const submit = (data) => {  
-     data.frontBaseUrl='http://localhost:5173/#'
+     data.frontBaseUrl='https://magenta-naiad-a39f39.netlify.app/#'
     console.log(data)
     const url = 'https://ecomereceapi.onrender.com/api/v1/users/reset_password'
     axios.post(url, data)
