@@ -31,7 +31,7 @@ const Footer = () => {
             </a>
             <a className='Footer_div-two' href="https://www.linkedin.com/in/sary-buitrago-232a3b282">
                     <i class='Twitter bx bxl-linkedin'></i>
-         <h1 className='Footer_programmer'>Git</h1>
+         <h1 className='Footer_programmer'>Linkedin</h1>
             </a>
             <h1 className='Footer_programmer'>Copyright © 2023 Sary Buitrago.</h1>
     
