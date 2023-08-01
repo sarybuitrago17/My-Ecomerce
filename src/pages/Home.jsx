@@ -5,6 +5,7 @@ import './style/home.css'
 import FilterCategory from '../components/Home/FilterCategory'
 import FilterByPrice from '../components/Home/FilterByPrice'
 import { Link } from 'react-router-dom'
+import Footer from '../components/footer/Footer'
 
 const Home = () => {
    const {productsGlobal} = useSelector(state => state)
@@ -83,7 +84,7 @@ const Home = () => {
         ))
      }
       </div>
-    
+      <Footer/>
     </div>
   )
 }
