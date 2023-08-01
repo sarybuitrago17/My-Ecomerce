@@ -5,6 +5,7 @@ import ProductIdInfo from "../components/ProductId/ProductIdInfo";
 import SliderImgs from "../components/ProductId/SliderImgs";
 import SimiliarProducts from "../components/ProductId/SimiliarProducts";
 import "./style/productid.css";
+import Footer from "../components/footer/Footer";
 
 const ProductId = () => {
   const { id } = useParams();
@@ -27,6 +28,7 @@ const ProductId = () => {
       </div>
 
       <SimiliarProducts product={Product} />
+      <Footer/>
     </div>
   );
 };

@@ -8,6 +8,7 @@ const ProductPurchases = ({product}) => {
     <h3 className="purcha_title">{product.product.title}</h3>
     <span className="purcha_quantity">{product.quantity}</span>
     <span className="purcha_total">{product.quantity * product.product.price}</span>
+    
     </article>
   )
 }
